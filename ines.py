@@ -49,7 +49,7 @@ def seq_chunks(seq, n):
         yield seq[i:i+n]
 
 
-def warn(str_):
+def warn(msg):
     print("WARN:", msg, file=sys.stderr)
 
 
